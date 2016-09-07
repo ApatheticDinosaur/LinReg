@@ -47,6 +47,10 @@ public class DataIngestor {
         }
     }
 
+    /**
+     * Accessor method for getting values
+     * @return Hashmap of ingested data values
+     */
     public HashMap getValues() {
         return values;
     }
