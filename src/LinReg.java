@@ -7,6 +7,8 @@ import java.util.HashMap;
 public class LinReg {
 
     private HashMap data;
+    private double error = 0;
+
 
     public LinReg(HashMap data) {
         this.data = data;
